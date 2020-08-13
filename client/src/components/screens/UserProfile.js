@@ -102,7 +102,7 @@ const Profile = ()=>{
                         {showfollow?
                         <div className="fubox" style={{display:"flex"}}>
                              <div style={{height:"1rem",marginTop:"0.5rem",marginLeft:"1.5rem"}} className="file-field fbtn input-field">
-                                    <div style={{padding:"1rem 0.5rem",boxShadow:"none",border:"1px solid #dbdbdb",height:"2rem",lineHeight:"0"}} className="btn follow-btn editprofilebtn">
+                                    <div style={{padding:"1rem 0.5rem",boxShadow:"none",border:"1px solid #dbdbdb",height:"2rem",lineHeight:"0",width:"8rem"}} className="btn follow-btn editprofilebtn">
                                         <span onClick={()=>followUser()}  style={{fontWeight:"600" ,textTransform:"capitalize",fontSize:"1rem",lineHeight:"0",letterSpacing:"0"}}>
                                         Follow
                                         </span>
