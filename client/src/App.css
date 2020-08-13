@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color: #000 !important;
+}
+body{
+  background-color: #fafafa;
+
+  color: #505050;
+}
+#root{
+}
+
+.brand-logo, h2{
+  font-family: 'Grand Hotel', cursive;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.mycard{
+ margin-top: 30px;
+}
+
+.auth-card{
+  padding:20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.input-field input:focus{
+  border: 0px solid rgb(8,93,252) !important;
+  box-shadow:0 1px 0 0 rgb(8,93,252) !important;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+}
+
+.home{
+ 
+}
+.home-card{
+  margin:26px auto;
+  max-width: 500px;
+  height:max-content;
+}
+
+#toast-container{
+  top:30px !important;
+  right:20px !important;
+  left:auto !important;
+}
+
+a:hover{
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.scroll{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: 1s;
+  animation:  appear 2s;
+}
+
+/* .row{
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding: 0 !important;
+} */
+
+nav{
+  background-color: white;
+  height:4rem !important;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+  margin-top: 0rem;
+}
+.nav-wrapper{
+  padding: 1.2rem;
+  margin: 0;
+}
+
+.nav-wrapper ul{
+  line-height: 0;
+  margin-right: 20vw;
+
+}
+
+.brand-logo{
+  line-height: 0.8;
+  margin-left: 15vw;
+}
+
+::placeholder {
+  color: grey !important;
+  text-align: center;
+
+}
+
+nav li{
+  margin: 0 0.3rem;
+}
+
+.dropdown-menu{
+  width: 15rem;
+  margin-right: 15vw !important;
+  padding: 0;
+}
+
+.dropdown-menu a{
+  font-size: 1rem !important;
+  font-weight: 400;
+  color: #262626 !important;
+  padding: 0;
+
+}
+.dropdown-menu i{
+  font-size: 1rem !important;
+  color: #000 !important;
+  padding: 0 1rem 0 1.5rem !important;
+  height: 2rem !important;
+  line-height: 0 !important;
+}
+.dropdown-menu ul{
+  padding-top: 2rem;
+}
+
+.status{
+
+    background-image:linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    padding: 2px;
+}
+.status-img{
+  border: 2px solid white;
+
+}
+
+.statusbar::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+
+}
+
+
+.home-card {
+  margin: 26px auto;
+  max-width: 2000px;
+  height: max-content;
+}
+
+.sdcard{
+   background: transparent;
+   box-shadow: none;
+   border: none;
+   display: flex;
+   flex-direction: row;
+   margin-top: 3rem;
+}
+
+#a{
+  color: #ff5f5f !important;
+  font-weight: bold;
+}
+
+.comment::-webkit-input-placeholder{
+  text-align: left;
+}
+.searchmob{
+  visibility: hidden;
+}
+
+.editprofilebtn:hover{
+  background-color: transparent !important;
+}
+.follow-btn{
+  background-color: #0095f6;
+  color: #fafafa;
+  padding: 1rem 2rem !important;
+}
+.follow-btn:hover{
+  background-color: #0095f6 !important;
+  color: #fafafa !important;
+  padding: 1rem 2rem !important;
+}
+.unfollow-btn{
+  background-color: transparent;
+
+  padding: 1rem 2rem !important;
+}
+.unfollow-btn:hover{
+ background-color: transparent;
+  padding: 1rem 2rem !important;
+}
+
+.caret-btn{
+  background-color: #0095f6;
+  color: #fafafa;
+  padding: 1rem !important;
+}
+.caret-btn:hover{
+  background-color: #0095f6 !important;
+  color: #fafafa !important;
+  padding: 1rem !important;
+}
+.caret-btn2{
+  background-color: transparent;
+
+  padding: 1rem  !important;
+}
+.caret-btn2:hover{
+ background-color: transparent;
+  padding: 1rem  !important;
+}
+
+.card{
+  box-shadow: none !important;
+}
+
+.side-description{
+  padding-left: 4rem !important;
+}
+
+
+
+.btn-default.btn-on.active{background-color: grey;color: white;}
+.btn-default.btn-off.active{background-color: #0095f6;color: white;}
+.btn-default.btn-on:hover{
+  background-color: white !important;color: white !important;
+}
+.btn-default.btn-off:hover{
+  background-color: white;color: white;}
+
+.ta-l{
+  text-align: right;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  #root{
+    overflow: hidden;
+  }
+  nav input{
+    display: none;
+    visibility: hidden;
+  }
+  .brand-logo{
+    margin-left: 0;
+  }
+  .searchbox{
+    height: 0;
+  }
+  #nav-mobile{
+    margin-right: -20rem !important;
+  }
+  .dropdown-menu{
+    width: 40vw !important;
+    margin-left: 60vw !important;
+    margin-top: 4rem !important;
+    transform: none !important;
+  }
+  .side-description{
+    visibility: hidden;
+  }
+  nav ul a{
+    padding:0 6px;
+  }
+  .searchmob{
+    visibility: visible;
+    margin-top: -0.3rem;
+    padding-right: 0;
+  }
+  .modal{
+    width: 100vw !important;
+    margin:0 !important;
+    height: 80vh;
+    margin-top: 4rem !important;
+  }
+  .modal input{
+    visibility: visible;
+    display: block;
+  }
+  .modal {
+    visibility: visible;
+  }
+  .form-control{
+    border: none;
+  }
+  .home-card{
+    margin: 1rem 0;
+  }
+  .profilepic{
+    padding: 0 2rem !important;
+  }
+  .profilepic .card-body{
+    padding: 0 1rem !important;
+  }
+  .profilepic img{
+    width: 100px !important;
+    height:100px !important;
+
+  }
+  .profilepic h5{
+   font-size: 1.5rem !important;
+  }
+  .profilepic .number{
+    margin-top: 0.8rem !important;
+  }
+  .profilepic h6{
+    padding-left: 0.6rem !important;
+    font-size: 01rem !important;
+  }
+  .profilepic h6:first-child{
+    padding-left:0rem !important;
+  }
+  .profilepic p{
+    margin-top: 0 !important;
+  }
+  .profilepic .input-field{
+    width: 10rem;
+  }
+  .profilepic .intro{
+    margin-top: 3rem;
+    margin-left: -7.5rem;
+  }
+  .profilepic .username{
+    margin-top: 0.7rem;
+  }
+  .home .statusbar{
+    padding-left: 1rem !important;
+    padding:0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .highlights{
+    margin: 0 !important;
+  }
+  .highlights img{
+    width: 4.5rem !important;
+    height: 4.5rem !important;
+  }
+  .infocard{
+    margin-bottom: 0 !important;
+    margin-top: 3rem !important;
+  }
+  .gallery img{
+    width: 32vw !important;
+    height: 32vw !important;
+    margin-bottom: 0.4rem !important;
+  }
+  .gallery{
+    padding: 0 !important;
+  }
+  .hr{
+    margin-top: 0 !important;
+  }
+  .userprofilename{
+    width: 100vw;
+    margin-top: -0.5rem !important;
+  }
+  .fubox{
+    margin-top: 1.2rem !important;
+    margin-left: -27rem !important;
+    display: flex;
+  }
+  .fbtn{
+    width: auto !important;
+  }
+  .introu{
+    margin-top: 1rem !important;
+  }
+  .introu p:nth-child(2){
+    margin-bottom: 0 !important;
+  }
+  #mainstatus{
+    padding: 1rem 0rem 0px 1rem !important;
+    margin-top: 4rem !important;
+  }
+  nav{
+    position: fixed;
+    top:0;
+   
+
+  }
+  .signin{
+    background-color: #fafafa;
+  }
+  .signinbottom{
+    text-align: center !important;
+  }
+  .ta-l{
+    text-align: center !important;
+    margin-top: 1rem;
+  }
+ 
+
+}
